@@ -20,5 +20,7 @@ python -m scripts.run_baselines
 python -m scripts.build_artifact
 
 cd app
+
 streamlit run streamlit_app.py
+
 
