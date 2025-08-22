@@ -1,0 +1,6 @@
+raw_path: "data/raw/Cancer.csv"
+processed_dir: "data/processed"
+target: "Diagnosis"
+test_size: 0.15
+val_size: 0.15 # of the full dataset (train ≈ 0.70)
+seed: 42

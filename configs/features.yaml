@@ -1,0 +1,22 @@
+base_features:
+  - Age
+  - Gender
+  - BMI
+  - Smoking
+  - GeneticRisk
+  - PhysicalActivity
+  - AlcoholIntake
+  - CancerHistory
+engineered:
+  - Age2
+  - BMI2
+  - BMI_x_PhysicalActivity
+  - Smoking_x_GeneticRisk
+  - History_x_GeneticRisk
+scale_columns:
+  - Age
+  - BMI
+  - PhysicalActivity
+  - AlcoholIntake
+  - Age2
+  - BMI2
