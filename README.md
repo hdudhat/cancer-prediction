@@ -14,8 +14,11 @@ pip install -r requirements.txt
 # Put your CSV at data/raw/cancer.csv
 
 python -m scripts.prepare_data
+
 python -m scripts.run_baselines
+
 python -m scripts.build_artifact
 
 cd app
 streamlit run streamlit_app.py
+
